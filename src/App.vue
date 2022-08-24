@@ -124,6 +124,9 @@
             />
             <!-- Image from: http://unsplash.com/photos/MP0IUfwrn0A -->
           </div>
+          <div class="text-red-600 text-2xl">
+            {{ data.profile.name }}
+          </div>
 
           <!-- Pin to top right corner -->
           <div class="absolute top-0 right-0 h-12 w-18 p-4">
