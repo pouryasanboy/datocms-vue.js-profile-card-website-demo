@@ -140,15 +140,18 @@
         </div>
       </div>
     </div>
+    <Pourya />
   </div>
 </template>
 
 <script>
 import { request } from "./lib/datocms";
 import { toHead } from "vue-datocms";
+import Pourya from "@/components/Popo";
 
 export default {
   name: "App",
+  components: {Pourya},
   data() {
     return {
       nightMode: window.matchMedia("(prefers-color-scheme: dark)").matches,
